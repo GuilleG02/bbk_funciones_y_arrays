@@ -87,7 +87,7 @@ const numberArray = [3,2,5,4,1];
 
 function orderArray(functionArray){
 
-    const functionArray2 = functionArray.sort();
+    const functionArray2 = functionArray.sort((a,b => a-b));
     return console.log(functionArray2);
 
 
@@ -239,8 +239,6 @@ function sumarArray(array){
 
     console.log(resultadoArray);
 }
-
-//  26.- Crear la función multiplicarArray que acepte como argumento un array numérico y devuelva la multiplicación de los números en el array Array: [2, 3, 4] resultado: 24
 
 
 
